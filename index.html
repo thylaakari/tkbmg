@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="favicon.ico">
     <title>Trve Kvlt Black Metal Generator</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
                     </h1>
             </header>
         <div class="row justify-content-center align-items-center content">
-            <div class="content__cross-left" id="cross_left">
+            <div class="content__cross-left sm__hide" id="cross_left">
                 <img src="assets/crossnormal.png" alt="cross" id="cross_left_img">
             </div>
             <div>
@@ -26,7 +27,7 @@
             </div>
             <div class="content__song" id="song">
                 <div class="content__song-title">
-                    <h2>Song Name</h2>
+                    <h2 id="title">Song Name</h2>
                 </div>
                 <div class="content__song-body">
                     <div class="content__song-verse" id="verse1">
@@ -57,13 +58,27 @@
                     </div>
                 </div>
             </div>
-            <div class="content__cross-right" id="cross_right">
+            <div class="content__cross-right sm__hide" id="cross_right">
                 <img src="assets/crossnormal.png" alt="cross" id="cross_right_img">
             </div>
         </div>
+        <footer class="footer sm__hide">
+            <div>
+                <a href="https://vk.com/lev2die" target="_blank">VK</a>
+            </div>
+            <div>
+                <a href="https://github.com/thylaakari" target="_blank">GitHub</a>
+            </div>
+        </footer>
     </div>
 </div>
 <audio src="assets/lucifer.mp3" type="audio/mp3" id="lucifer_audio"></audio>
 <script async src="js/index.js"></script>
+<script async src="js/logic.js"></script>
+<script async src="js/names.js"></script>
+<script async src="js/predl.js"></script>
+<script async src="js/pril.js"></script>
+<script async src="js/sobsmest.js"></script>
+<script async src="js/verbs.js"></script>
 </body>
 </html>

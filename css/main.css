@@ -65,11 +65,12 @@ img {
 
 .content__song {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25px;
     display: none;
 }
 .content__song-title {
     margin-bottom: 30px;
+    margin-top: 25px;
 }
 .content__song-body {
     background: rgba(0, 0, 0, 0.66);
@@ -81,6 +82,20 @@ img {
 }
 .content__song-verse, .content__song-chorus {
     margin-bottom: 20px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 100px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.66);
+    padding: 20px;
+}
+.footer a {
+    color: #fff;
+}
+.footer a:hover {
+    color: #000;
 }
 
 .animated {
