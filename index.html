@@ -11,22 +11,53 @@
 <div class="wrapper">
     <div class="container">
             <header class="header">
-                <h1 class="header__title">‡ Trve Kvlt Black Metal Generatør</h1>
+                    <h1 class="header__title">
+                        <a class="header__link" onclick="reload()" href="">
+                            ‡ Trve Kvlt Black Metal Generatør
+                        </a>
+                    </h1>
             </header>
         <div class="row justify-content-center align-items-center content">
-            <div class="content__cross-left sm__hide" id="cross_left">
+            <div class="content__cross-left" id="cross_left">
                 <img src="assets/crossnormal.png" alt="cross" id="cross_left_img">
             </div>
-            <div class="d-none">
-                <button class="content__btn" onclick="new Init()" id="generate_btn">Generate</button>
+            <div>
+                <button class="content__btn" id="generate_btn" onclick="new Init()">Generate</button>
             </div>
-            <div class="content__song">
+            <div class="content__song" id="song">
                 <div class="content__song-title">
                     <h2>Song Name</h2>
                 </div>
-                <div class="content__song-body"></div>
+                <div class="content__song-body">
+                    <div class="content__song-verse" id="verse1">
+                        <p>Lorem ipsum dolor sit.</p>
+                        <p>Fuga quae quia unde.</p>
+                        <p>Ad dolorem modi similique.</p>
+                        <p>Exercitationem obcaecati perspiciatis quia!</p>
+                        <p>Doloribus impedit nam suscipit?</p>
+                        <p>Libero neque nobis quod!</p>
+                        <p>Accusantium nemo placeat repudiandae.</p>
+                        <p>Exercitationem placeat quas suscipit.</p>
+                    </div>
+                    <div class="content__song-chorus" id="chorus">
+                        <p>Lorem ipsum dolor sit.</p>
+                        <p>Fuga quae quia unde.</p>
+                        <p>Ad dolorem modi similique.</p>
+                        <p>Exercitationem obcaecati perspiciatis quia!</p>
+                    </div>
+                    <div class="content__song-verse" id="verse2">
+                        <p>Lorem ipsum dolor sit.</p>
+                        <p>Fuga quae quia unde.</p>
+                        <p>Ad dolorem modi similique.</p>
+                        <p>Exercitationem obcaecati perspiciatis quia!</p>
+                        <p>Doloribus impedit nam suscipit?</p>
+                        <p>Libero neque nobis quod!</p>
+                        <p>Accusantium nemo placeat repudiandae.</p>
+                        <p>Exercitationem placeat quas suscipit.</p>
+                    </div>
+                </div>
             </div>
-            <div class="content__cross-right sm__hide" id="cross_right">
+            <div class="content__cross-right" id="cross_right">
                 <img src="assets/crossnormal.png" alt="cross" id="cross_right_img">
             </div>
         </div>
